@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+ }
+ .lato-bold {
+     font-family: "Lato", sans-serif;
+     font-weight: 700;
+     font-style: normal;
+ }
+ body{
+     font-family: 'Lato', sans-serif;
+ }
+ #inner{
+     width: 300px;
+     height: 400px;
+     background-color: white;
+     position: absolute;
+     top: 20%;
+     left: 40%;
+     padding: 20px 25px;
+     box-shadow: 3px 3px 5px;
+     border-radius: 10px;
+ }
+ #outer{
+     width: 100vw;
+     height: 100vh;
+     background: linear-gradient(to top left, #ff02f6,#0606c9);
+ }
+ #head{
+     font-size: 40px;
+    
+     left: 5px;
+ }
+ #name{
+     width: 320px;
+     height: 35px;
+     font-size:20px ;
+     padding-left: 10px;
+     position: absolute;
+     top: 20%;
+     left: 10px;
+     border-radius: 5px;
+ 
+ }
+ #pass{
+     width: 320px;
+     height: 35px;
+     font-size: 20px;
+     padding-left: 10px;
+     position: absolute;
+     top: 35%;
+     left: 10px;
+     border-radius: 5px;
+ }
+ #confirm{
+     width: 320px;
+     height: 35px;
+     font-size: 20px;
+     padding-left: 10px;
+     position: absolute;
+     top: 50%;
+     left: 10px;
+     border-radius: 5px;
+ }
+ #line{
+     width: 330px;
+     height: 1px;
+     background-color: black;
+     position: absolute;
+     top: 70px;
+     left: 10px;
+ }
+ #button{
+     width: 100px;
+     height: 40px;
+     position: absolute;
+     top: 280px;
+     left: 15px;
+     border-radius: 5px;
+     border:none ;
+     background-color: rgb(49, 226, 49);
+     color: white;
+     cursor: pointer;
+ }
+ #extra{
+     position: absolute;
+     top: 330px;
+     left: 15px;
+ }
